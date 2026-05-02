@@ -120,7 +120,7 @@ flex-direction: column;
     width: 100%;
 
     /* Improving my own picture */
-    transform: scale (1.5);
+    transform: scale(1.5);
     padding-top: 8px;
 }
 
@@ -144,8 +144,10 @@ flex-direction: column;
     flex: 1;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .about-me__img {
 width: 100%;
+max-width: 500px;
 } 
