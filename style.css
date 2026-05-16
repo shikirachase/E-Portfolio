@@ -145,6 +145,7 @@ flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 4rem; 
 }
 
 .about-me__img {
