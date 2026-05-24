@@ -97,6 +97,7 @@ nav {
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    padding: 0 12px;
 }
 
 .nav__link--list {
@@ -227,6 +228,7 @@ max-width: 500px;
 
 .language__list {
     display: flex;
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -393,4 +395,14 @@ height: 70px;
     nav {
         height: 68px;
     }
+
+    h1 {font-size: 28px;}
+
+    .about-me__info--para {
+        font-size: 18px;
     }
+
+    .language {
+        width: calc(100% / 2);
+    }
+}
