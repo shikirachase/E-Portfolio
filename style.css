@@ -286,7 +286,7 @@ max-width: 500px;
     margin: 16px 0;
 }
 
-.project__description--links {
+.project__description--link {
     font-size: 20px;
     margin-right: 16px;
     text-decoration: none;
@@ -295,7 +295,7 @@ max-width: 500px;
 .project__description--title,
 .project__description--sub-title,
 .project__description--para,
-.project__description--links {
+.project__description--link {
     text-align: left;
     color: #fff;
 }
