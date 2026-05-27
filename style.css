@@ -159,8 +159,21 @@ flex-direction: column;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
-    margin-bottom: 28px; 
+    margin-bottom: 28px;
+    animation: animate-profile-picture 800ms 1s backwards;  
 } 
+
+@keyframes animate-profile-picture {
+    0% {
+        transform: scale(0);
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 .about-me__picture {
     width: 100%;
@@ -421,5 +434,31 @@ height: 70px;
 @media (max-width: 480px) {
    .nav__link:not(:last-child){
     display: none; 
+   }
+
+   .project__description {
+    padding: 0;
+    left: 0;
+    width: 100%;
+   }
+
+   .project__description--para {
+    display: none;
+   }
+
+   .project__description--links {
+    display: flex;
+    justify-content: center;
+   }
+
+   .project__description--title {
+    font-size: 32px;
+    text-align: center;
+    line-height: 1;
+   }
+
+   .project__description--sub-title {
+    text-align: center;
+    margin: 12px 0;
    }
 }
